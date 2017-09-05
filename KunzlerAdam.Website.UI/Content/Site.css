@@ -1,24 +1,36 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background-color: #D4DBC9;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
+/*
+    Home Page
 */
-.dl-horizontal dt {
-    white-space: normal;
+.home {
+    font-family: Consolas;
+    text-transform: lowercase;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.homeTitle {
+    margin-top: 25%;
+    font-size: 5em;
 }
+
+    .homeTitle span {
+        margin: 20px;
+    }
+
+.homeMenu {
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+    .homeMenu div {
+        display: inline;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .homeMenu a {
+        text-decoration: none;
+        color: #000000;
+    }

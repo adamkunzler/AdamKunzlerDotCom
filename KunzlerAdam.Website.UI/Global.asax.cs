@@ -16,6 +16,15 @@ namespace KunzlerAdam.Website.UI
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            Application["cssVersion"] = GetVersion();
+            Application["jsVersion"] = GetVersion();
+        }
+
+        public string GetVersion()
+        {
+            // year month day hour minute second fraction            
+            return DateTime.UtcNow.ToString("yyyyMMddHHmmssfff");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System;
+using System.Web;
 using System.Web.Optimization;
 
 namespace KunzlerAdam.Website.UI
@@ -27,6 +28,6 @@ namespace KunzlerAdam.Website.UI
                       "~/Content/reset.css",
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
-        }
+        }        
     }
 }
